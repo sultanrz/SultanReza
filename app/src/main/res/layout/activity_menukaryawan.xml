@@ -50,7 +50,7 @@
             android:textSize="15dp"/>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="390dp">
+            android:layout_height="400dp">
             <ListView
                 android:id="@+id/listView1"
                 android:layout_width="match_parent"
@@ -60,8 +60,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="20dp">
-
+            android:layout_marginTop="20dp"
+            android:gravity="right">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/input"
+                android:layout_marginRight="25dp"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
